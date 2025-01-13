@@ -28,7 +28,7 @@ public class locators {
 		Thread.sleep(1000);
 		//by xpath
 		driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("Smita");
-		driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("smitanimbulkar02@gmail.com");
+		driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("smitanimbulkar01@gmail.com");
 		driver.findElement(By.xpath("//form/input[3]")).sendKeys("7780973647");
 		driver.findElement(By.className("reset-pwd-btn")).click();
 		String msg = driver.findElement(By.cssSelector(".infoMsg")).getText();
